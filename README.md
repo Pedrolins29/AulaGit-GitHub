@@ -16,12 +16,17 @@ LINK VISUAL: https://ndpsoftware.com/git-cheatsheet.html#loc=workspace;
  01 Seção - Introdução e Instalações das dependências: 
  
 O que é GIT? 
+
   ● O sistema de controle de versão mais utilizado do mundo atualemente;
+  
   ● O GIT é baseado em reositírio, que contês todas as versões do código e também as cópias de 
      cada desenvolvedor;
+     
   ● Todas as operações do GIT são otimizadas para ter alto desempenho;
+  
   ● Todos os objetos do git são protegidos como criptogratia para alterações indevidas e 
      maliciosas;
+     
   ● o GIT é im prejeto de código aberto
 
     https://www.atlassian.com/git
