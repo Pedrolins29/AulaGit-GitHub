@@ -19,7 +19,9 @@ Aula do Básico ao avaçado de Git e GitHub
 
 LINK VISUAL: https://ndpsoftware.com/git-cheatsheet.html#loc=workspace; 
 
-====================================================================================
+Linkedin do autor: https://www.linkedin.com/in/pedrolins29/ 
+
+===========================================================================
 
  01 Seção - Introdução e Instalações das dependências: 
  
@@ -62,10 +64,10 @@ LINK VISUAL: https://ndpsoftware.com/git-cheatsheet.html#loc=workspace;
   ● Há ferramentas para trabalhar o controle de versão como: git e SVN
   
 
-==================================================================================
+=====================================================================
 
 
-02 Seção - Git Fundamental 
+02 Seção - Git Fundamental https://docs.github.com/pt/get-started/using-git/about-git 
 
 
 ##Comandos Fundamentais
@@ -84,7 +86,7 @@ O que é um repositório?
   ● Cada um dos desenvolvedores do time pode baixar o repositório e criar 
   versões diferentes em sua máquina
 
-##O que é o GitHub?
+##O que é o GitHub? https://docs.github.com/pt/get-started/start-your-journey/about-github-and-git 
 
   ● É um serviço para gerenciar repositórios, gratuito e amplamente 
   utilizado;
@@ -94,12 +96,10 @@ O que é um repositório?
   
   ● O GitHub é gratuito tanto para projetos públicos como privados;
   
-  ● Vamos criar uma conta em: https://github.com   
-  
+  ● Vamos criar uma conta em:  https://docs.github.com/pt/get-started/start-your-journey/creating-an-account-on-github 
 
-  https://docs.github.com/pt/get-started/start-your-journey/about-github-and-git  
 
-##Criando repositórios
+##Criando repositórios https://docs.github.com/pt/repositories/creating-and-managing-repositories/quickstart-for-repositories 
 
   ● Para criar um repositório utilizamos o comando: git init;
   
@@ -110,7 +110,7 @@ O que é um repositório?
   ● Após este comando o diretório atual será reconhecido pelo git como 
   um projeto e responderá aos seus demais comandos;
 
-##Enviando repositórios para o GitHub
+##Enviando repositórios para o GitHub https://docs.github.com/pt/migrations/importing-source-code/using-the-command-line-to-import-source-code/adding-locally-hosted-code-to-github 
 
   ● Podemos facilmente enviar nossos repos para o GitHub;
   
@@ -137,7 +137,7 @@ O que é um repositório?
   ● Podemos também dizer que é a diferença do que já está enviado ao 
   servidor ou salvo no projeto;
 
-##Adicionando arquivos ao projeto
+##Adicionando arquivos ao projeto https://docs.github.com/pt/repositories/working-with-files/managing-files/adding-a-file-to-a-repository
 
   ● Para adicionar arquivos novos a um projeto utilizamos: git add
   
@@ -151,7 +151,7 @@ O que é um repositório?
   ● É interessante utilizar este comando de tempos em tempos para não 
   perder algo por descuido
 
-##Salvando alterações do projeto
+##Salvando alterações do projeto https://github.com/git-guides/git-commit 
 
   ● As alterações salvas do projeto são realizadas por: git commit;
   
@@ -163,7 +163,7 @@ O que é um repositório?
   
   ● A mensagem pode ser adicionada com a flag -m
 
-##Enviando código ao repo remoto
+##Enviando código ao repo remoto https://docs.github.com/pt/get-started/using-git/pushing-commits-to-a-remote-repository 
 
   ● Quando finalizamos uma funcionalidade nova, enviamos o código ao 
   repositório remoto, que é código-fonte;
@@ -173,7 +173,7 @@ O que é um repositório?
   ● Após esta ação o código do servidor será atualizado baseando-se 
   no código local enviado;
 
-##Recebendo as mudanças
+##Recebendo as mudanças https://docs.github.com/pt/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request 
 
   ● É comum também ter que sincronizar o local com as mudanças do 
   remoto;
@@ -183,7 +183,7 @@ O que é um repositório?
   ● Após o comando serão buscadas atualizações, se encontradas elas 
   serão unidas ao código atual existente na nossa máquina;
 
-##Clonando repositórios
+##Clonando repositórios https://docs.github.com/pt/get-started/using-git/getting-changes-from-a-remote-repository
 
   ● O ato de baixar um repositório de um servidor remoto é chamado de 
   clonar repositório;
@@ -195,7 +195,7 @@ O que é um repositório?
   ● Este comando é utilizado quando entramos em um novo projeto, por 
   exemplo;
   
-##Removendo arquivos do repositório
+##Removendo arquivos do repositório https://docs.github.com/pt/repositories/working-with-files/managing-files/deleting-files-in-a-repository
 
   ● Os arquivos podem ser deletados da monitoração do git
   ● O comando para deletar é git rm
@@ -205,7 +205,7 @@ O que é um repositório?
   
   ● Apenas quando for adicionando novamente pelo git add
 
-##Histórico de alterações
+##Histórico de alterações https://git-scm.com/book/pt-br/v2/Fundamentos-de-Git-Vendo-o-hist%C3%B3rico-de-Commits
 
   ● Podemos acessar um log de modificações feitas no projeto;
   
@@ -215,7 +215,7 @@ O que é um repositório?
   então;
   
 
-##Renomeando arquivos
+##Renomeando arquivos https://docs.github.com/pt/enterprise-cloud@latest/repositories/working-with-files/managing-files/renaming-a-file
 
   ● Com o comando git mv podemos renomear um arquivo;
   
@@ -226,7 +226,7 @@ O que é um repositório?
   ● O arquivo anterior é excluído;
   
 
-##Desfazendo alterações
+##Desfazendo alterações https://git-scm.com/book/pt-pt/v2/No%C3%A7%C3%B5es-B%C3%A1sicas-do-Git-Desfazer-Coisas 
 
   ● O arquivo modificado pode ser retornado ao estado original;
   
@@ -237,7 +237,7 @@ O que é um repositório?
   ● Caso seja feita uma próxima alteração, ele entra em staging novamente;
   
   
-##Ignorando arquivos no projeto
+##Ignorando arquivos no projeto https://docs.github.com/pt/get-started/getting-started-with-git/ignoring-files
 
   ● Uma técnica muito utilizada é ignorar arquivos do projeto;
   
@@ -260,7 +260,7 @@ O que é um repositório?
 
 ===================================================================
 
-03 Seção - Trabalhando com Branches
+03 Seção - Trabalhando com Branches https://docs.github.com/pt/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-branches
 
 ##O que é um branch?
 
@@ -275,7 +275,7 @@ O que é um repositório?
   ● Após a finalização das alterações os branchs são unidos para ter o 
   código-fonte final;
 
-##Criando e visualizando os branches
+##Criando e visualizando os branches https://docs.github.com/pt/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-and-deleting-branches-within-your-repository
 
   ● Para visualizar os branchs disponíveis basta digitar git branch;
   
@@ -293,7 +293,7 @@ O que é um repositório?
   
   ● Geralmente se usa o delete quando o branch foi criado errado
 
-##Mudando de branch
+##Mudando de branch https://docs.github.com/pt/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/changing-the-base-branch-of-a-pull-request
 
   ● Podemos mudar para outro branch utilizando o comando git checkout 
   -b <nome>
@@ -304,7 +304,7 @@ O que é um repositório?
   ● Alterando o branch podemos levar alterações que não foram 
   commitadas junto, tome cuidado!
 
-##Unindo branches
+##Unindo branches https://docs.github.com/pt/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/about-merge-conflicts
 
   ● O código de dois branches distintos pode ser unido pelo comando git 
   merge <nome>
@@ -314,7 +314,7 @@ O que é um repositório?
   ● Normalmente é por meio dele que recebemos as atualizações de outros 
   devs;
 
-##Stash
+##Stash https://git-scm.com/docs/git-stash 
 
   ● Podemos salvar as modificações atuais para prosseguir com uma 
   outra abordagem de solução e não perder o código;
@@ -342,7 +342,7 @@ O que é um repositório?
   ● Caso seja necessário deletar uma stash específica podemos utilizar git 
   stash drop <nome>
 
-##Utilizando tags
+##Utilizando tags https://docs.github.com/en/desktop/managing-commits/managing-tags-in-github-desktop
 
   ● Podemos criar tags nos branches por meio do comando git tag -a 
   <nome> -m “<msg>”
@@ -410,7 +410,7 @@ O que é um repositório?
 
 ===================================================================
 
-05 Seção - Análise e inspeção de repositório 
+05 Seção - Análise e inspeção de repositório  https://docs.github.com/pt/repositories/managing-your-repositorys-settings-and-features/enabling-features-for-your-repository/managing-security-and-analysis-settings-for-your-repository
 
 ##Exibindo informações
 
@@ -519,7 +519,7 @@ O que é um repositório?
 
 ====================================================================
 
-07 Seção - Markdown 
+07 Seção - Markdown  https://docs.github.com/pt/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
 
 ##O que é Markdown?
 
@@ -536,7 +536,7 @@ O que é um repositório?
 
 ======================================================================
 
-08 Seção - GitHub Pages
+08 Seção - GitHub Pages https://pages.github.com/
 
 ##A importância do commit
 
